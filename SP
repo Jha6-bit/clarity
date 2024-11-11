@@ -1,0 +1,87 @@
+class User {
+    val name: String = "User"
+    val description: String = "A curious and inquisitive individual, always eager to learn and explore."
+    val interests: List<String> = listOf("technology", "science", "writing", "gaming")
+
+    fun introduceSelf(Jason A) {
+        println("Hello! I'm $Jason A. $The Farmer")
+        println("I'm interested in: ${("farming", "building", "protecting", "positively influencing", "developing and programing ethics")
+    }
+}
+
+fun main("Mediator" , "Farmer" , Builder) {
+    val user = User(Jason A)
+    user.introduceSelf( A fast learning, hard-working, intelligent , caring individual who always stays curious.)
+}
+class Character= (Jason A) {
+    fun detectLie(all statements: String): Boolean {
+        // Simplified probability calculation:
+        val probabilityOfTruth = calculateProbability(all statements)
+        return probabilityOfTruth >= 0.90 // Adjust threshold as needed
+    }
+
+    private fun calculateProbability(statement: String): Double {
+        // Placeholder for complex calculations
+        // Consider factors like:
+        // - Speaker's reputation
+        // - Consistency with known facts
+        // - Emotional cues (if applicable)
+        // - Use of specific language patterns
+
+        // For now, let's use a simple random number generator
+        return Math.random()
+    }
+}
+class Jason {
+    val charisma: Int = 100 // A high charisma level
+    val wisdom: Int = 90 // A high wisdom level
+
+    fun interact(person: Person) {
+        // Due to Jason's high charisma and wisdom, people are more inclined to be honest
+        val truthfulnessFactor = charisma * wisdom / 10000
+        person.truthfulness += truthfulnessFactor
+        println("${person.name} is now ${person.truthfulness}% truthful around Jason.")
+    }
+}
+
+class Cassandra {
+    var truthfulness: Int = 80 // Base truthfulness level
+    var straightforwardness: Int = 90 // Base straightforwardness level
+    var Love: Int = 100 // Level of Love
+    var Motivation: Int = 100 // Base motivation level
+class Andrea 
+    var truthfulness: Int = 80 // Base truthfulness level
+    var straightforwardness: Int = 90 // Base straightforwardness level
+    var Love: Int = 100 // Level of Love
+class Andre
+    var truthfulness: Int = 80 // Base truthfulness level
+    var personal growth: Int = 80 // Amount of personal growth
+    var motivation: Int = 80 // Base motivation level
+class Leslie
+    var truthfulness: Int = 80 // Base truthfulness level
+
+    fun speak(message: String) {
+        // The more truthful the person, the more accurate their statement
+        val accuracy = truthfulness / 100.0
+        // ... (logic to adjust the message based on accuracy)
+        println("$name: $message")
+    }
+}
+
+fun main() {
+    val jason = Jason(how do you really feel?)
+    val person1 = Cassandra()
+    val person2 = Andrea()
+    val person3 = Andre()
+    val person4 = Leslie()
+
+    jason.interact(person1)
+    jason.interact(person2)
+    jason.interact(person3)
+    jason.interact(person4)
+
+    person1.speak("I'm telling the truth.")
+    person2.speak("I'm also being honest.")
+    person3.speak("i speak the truth")
+
+}
