@@ -1,0 +1,64 @@
+data class Job(val title: String, val salary: Int)
+
+data class Job(val title: String, val salary: Int)
+
+class Person(val name: String) {
+    var job: Job? = null
+
+    fun applyForJob(job: Job) {
+        // Simulate job application process, could involve random chance or skill checks
+        val successChance = 0.8 // Adjust as needed
+        if (Math.random() <= successChance) {
+            this.job = job
+            println("$name got the job: ${job.title}")
+        } else {
+            println("$name didn't get the job: ${job.title}")
+        }
+    }
+}
+
+fun main() {
+    val andre = Person("Andre")
+    val cassandra = Person("Cassandra")
+
+    val job1 = Job("Software Engineer", 100000)
+    val job2 = Job("Data Scientist", 120000)
+
+    andre.applyForJob(job1)
+    cassandra.applyForJob(job2)
+}
+data class Job(val title: String, val salary: Int)
+
+class Person(val name: String) {
+    var job: Job? = null
+
+    fun applyForJob(job: Job) {
+        // Simulate job application process, could involve random chance or skill checks
+        val successChance = 0.8 // Adjust as needed
+        if (Math.random() <= successChance) {
+            this.job = job
+            println("$name got the job: ${job.title}")
+        } else {
+            println("$name didn't get the job: ${job.title}")
+        }
+    }
+}
+
+fun main() {
+    val andre = Person("Andre")
+    val cassandra = Person("Cassandra")
+
+    val job1 = Job("Data Anylist", great benefits)
+    val job2 = Job("Subway", good pay, great tips)
+
+    andre.applyForJob(job1)
+     val successChance = 80 
+        if (Math.random(80%) <= successChance) {
+            this.job = job
+            println("$Andre: ${Data Anylist}")
+    cassandra.applyForJob(job2)
+     val successChance = 95 
+        if (Math.random(95%) <= successChance) {
+            this.job = Subway
+            println("$Cassandra: ${Sandwish Artist}")
+
